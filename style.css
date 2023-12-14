@@ -17,6 +17,98 @@ body {
     font-family: 'Playfair Display', sans-serif;
 }
 
+/* header */
+.header {
+    padding-top: 34px;
+    position: fixed;
+    width: 100%;
+}
+
+
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-list {
+    display: flex;
+    list-style: none;
+}
+
+.header-item {
+    margin-right: 60px;
+    color: #FFF;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.header-link1 {
+    color: #FFF;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.header-link2 {
+    border-radius: 24px;
+    background: #F9C06A;
+    box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+    padding: 16px 27px;
+    color: #1E1E1E;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 35px;
+}
+
+/* hero */
+.hero {
+    background: url(./img/header-hero.jpg);
+    padding-top: 185px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.hero-container {}
+
+.hero-left {}
+
+.hero-title {
+    color: #FFF;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.hero-text {
+    color: #FFF;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    margin-top: 50px;
+}
+
+.hero-btn {
+    border-radius: 24px;
+    background: #F9C06A;
+    box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+    padding: 15px 26px;
+    color: #1E1E1E;
+    font-family: 'Playfair Display',sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    margin-top: 34px;
+    margin-bottom: 97px;
+}
+
 
 
 
@@ -425,7 +517,7 @@ body {
 .footer {
     padding-top: 162px;
     padding-bottom: 80px;
-    background-image: linear-gradient( rgb(57, 39, 5),rgb(162, 111, 17));
+    background-image: linear-gradient(rgb(57, 39, 5), rgb(162, 111, 17));
 }
 
 .footer-container {
@@ -495,7 +587,7 @@ body {
 
 .contact-text {
     color: #FFF;
-    font-family: 'Playfair Display',sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -505,7 +597,7 @@ body {
 
 .contact-des {
     color: #FFF;
-    font-family: 'Playfair Display',sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 22px;
